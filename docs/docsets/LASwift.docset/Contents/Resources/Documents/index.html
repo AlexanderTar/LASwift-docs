@@ -633,17 +633,110 @@
             <a href='#laswift' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h1 id='laswift'>LASwift</h1>
 
 <p><a href="https://travis-ci.org/AlexanderTar/LASwift"><img src="https://travis-ci.org/AlexanderTar/LASwift.svg?branch=master" alt="CI Status"></a>
-<a href="https://codecov.io/gh/AlexanderTar/LASwift"><img src="https://codecov.io/gh/AlexanderTar/LASwift/branch/master/graph/badge.svg" alt="codecov"></a></p>
-<a href='#example' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='example'>Example</h2>
+<a href="https://codecov.io/gh/AlexanderTar/LASwift"><img src="https://codecov.io/gh/AlexanderTar/LASwift/branch/master/graph/badge.svg" alt="codecov"></a>
+<a href="https://alexandertar.github.io/LASwift-docs/index.html"><img src="https://img.shields.io/badge/LASwift-documentation-blue.svg" alt="Documentation"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible"></a></p>
 
-<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+<p>LASwift provides most of linear algebra operations on vectors and matrices
+required to implement machine learning algorithms. Library syntax is inspired by
+Matlab matrix manipulation and Haskell linear algebra library &lsquo;hmatrix&rsquo;. LASwift is
+using high-performant calculations provided by LAPACK, BLAS and vDSP through Apple
+Accelerate framework.</p>
+<a href='#currently-supported' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='currently-supported'>Currently supported</h2>
+
+<p>Following operations are fully supported for both vectors and matrices:</p>
+
+<ul>
+<li>Arithmetic operations (addition, substraction, multiplication, division, absolute value)</li>
+<li>Exponential functions (raise to power, exponent, logarithms)</li>
+<li>Trigonometric functions (sine, cosine, tangent)</li>
+<li>Statistics functions (max, min, mean value, standard deviation)</li>
+</ul>
+
+<p>Linear algebra operations on matrices:</p>
+
+<ul>
+<li>Inversion</li>
+<li>Transposition</li>
+<li>Matrix power (integer values)</li>
+<li>Eigenvectors and eigenvalues</li>
+<li>Singular value decomposition</li>
+</ul>
+
+<p>Following matrix manipulation operations are supported:</p>
+
+<ul>
+<li>Concatenation</li>
+<li>Slicing</li>
+</ul>
 <a href='#requirements' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='requirements'>Requirements</h2>
-<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
 
-<p>LASwift is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
-it, simply add the following line to your Podfile:</p>
-<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s2">"LASwift"</span>
+<ul>
+<li>iOS 8.0+ / Mac OS X 10.9+ / tvOS 9.0+</li>
+<li>Xcode 8.0+</li>
+<li>Swift 3.0+</li>
+</ul>
+<a href='#installation' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='installation'>Installation</h2>
+<a href='#cocoapods' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='cocoapods'>CocoaPods</h4>
+
+<p>Install CocoaPods if not already available:</p>
+<pre class="highlight shell"><code><span class="gp">$ </span><span class="o">[</span>sudo] gem install cocoapods
+<span class="gp">$ </span>pod setup
 </code></pre>
+
+<p>Go to the directory of your Xcode project, and Create and Edit your <em>Podfile</em> and add <em>LASwift</em>:</p>
+<pre class="highlight shell"><code><span class="gp">$ </span><span class="nb">cd</span> /path/to/MyProject
+<span class="gp">$ </span>touch Podfile
+<span class="gp">$ </span>edit Podfile
+<span class="nb">source</span> <span class="s1">'https://github.com/CocoaPods/Specs.git'</span>
+platform :ios, <span class="s1">'8.0'</span>
+
+use_frameworks!
+pod <span class="s1">'LASwift'</span>, <span class="s1">'~&gt; 0.1.0'</span>
+</code></pre>
+
+<p>Install into your project:</p>
+<pre class="highlight shell"><code><span class="gp">$ </span>pod install
+</code></pre>
+
+<p>Open your project in Xcode from the .xcworkspace file (not the usual project file):</p>
+<pre class="highlight shell"><code><span class="gp">$ </span>open MyProject.xcworkspace
+</code></pre>
+
+<p>You can now <code>import LASwift</code> framework into your files.</p>
+<a href='#carthage' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='carthage'>Carthage</h4>
+
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that automates the process of adding frameworks to your Cocoa application.</p>
+
+<p>You can install Carthage with <a href="http://brew.sh/">Homebrew</a> using the following command:</p>
+<pre class="highlight shell"><code><span class="gp">$ </span>brew update
+<span class="gp">$ </span>brew install carthage
+</code></pre>
+
+<p>To integrate <code>LASwift</code> into your Xcode project using Carthage, specify it in your <code>Cartfile</code> file:</p>
+<pre class="highlight plaintext"><code>github "alexandertar/LASwift" &gt;= 0.1.0
+</code></pre>
+<a href='#swift-package-manager' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h4 id='swift-package-manager'>Swift Package Manager</h4>
+
+<p>You can use <a href="https://swift.org/package-manager">The Swift Package Manager</a> to install <code>LASwift</code> by adding the proper description to your <code>Package.swift</code> file:
+&ldquo;`swift
+import PackageDescription</p>
+
+<p>let package = Package(
+name: <q>YOUR_PROJECT_NAME</q>,
+targets: [],
+dependencies: [
+.Package(url: <q>https://github.com/alexandertar/LASwift</q>, versions: <q>0.1.0</q> ..&lt; Version.max)
+]
+)
+&rdquo;`</p>
+
+<p>Note that the <a href="https://swift.org/package-manager">Swift Package Manager</a> is still in early design and development, for more information checkout its <a href="https://github.com/apple/swift-package-manager">GitHub Page</a>.</p>
+<a href='#contribution' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='contribution'>Contribution</h2>
+
+<p>Currently implemented functionality should be sufficient enough to implement machine learning
+algorithms (as this was an initial purpose). However, if you find something missing or wish to add
+extra features, feel free to submit pull-requests or create issues with proposals.</p>
 <a href='#author' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='author'>Author</h2>
 
 <p>Alexander Taraymovich, <a href="mailto:taraymovich@me.com">taraymovich@me.com</a></p>
