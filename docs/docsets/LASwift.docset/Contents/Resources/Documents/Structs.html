@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Structs  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Structs  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">LASwift Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">LASwift Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Structs  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Matrix.html">Matrix</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:O7LASwift3Dim">Dim</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:O7LASwift9Extractor">Extractor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1mFTCS_6MatrixS0__S0_">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1mFTGSaSd_GSaSd__Sd">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTCS_6MatrixGSaSd__S0_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTCS_6MatrixS0__S0_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTCS_6MatrixSd_S0_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTGSaSd_CS_6Matrix_S0_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTGSaSd_GSaSd__GSaSd_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTGSaSd_Sd_GSaSd_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTSdCS_6Matrix_S0_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1pFTSdGSaSd__GSaSd_">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftop1sFCS_6MatrixS0_">-(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftop1sFGSaSd_GSaSd_">-(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTCS_6MatrixGSaSd__S0_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTCS_6MatrixS0__S0_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTCS_6MatrixSd_S0_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTGSaSd_CS_6Matrix_S0_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTGSaSd_GSaSd__GSaSd_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTGSaSd_Sd_GSaSd_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTSdCS_6Matrix_S0_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1sFTSdGSaSd__GSaSd_">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTCS_6MatrixGSaSd__S0_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTCS_6MatrixS0__S0_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTCS_6MatrixSd_S0_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTGSaSd_CS_6Matrix_S0_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTGSaSd_GSaSd__GSaSd_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTGSaSd_Sd_GSaSd_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTSdCS_6Matrix_S0_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zmFTSdGSaSd__GSaSd_">.*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTCS_6MatrixGSaSd__S0_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTCS_6MatrixS0__S0_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTCS_6MatrixSd_S0_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTGSaSd_CS_6Matrix_S0_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTGSaSd_GSaSd__GSaSd_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTGSaSd_Sd_GSaSd_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTSdCS_6Matrix_S0_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zdFTSdGSaSd__GSaSd_">./(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTCS_6MatrixGSaSd__S0_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTCS_6MatrixS0__S0_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTCS_6MatrixSd_S0_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTGSaSd_CS_6Matrix_S0_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTGSaSd_GSaSd__GSaSd_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTGSaSd_Sd_GSaSd_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTSdCS_6Matrix_S0_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3zdzFTSdGSaSd__GSaSd_">./.(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zxFTCS_6MatrixSd_S0_">.^(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2zxFTGSaSd_Sd_GSaSd_">.^(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2eeFTCS_6MatrixS0__Sb">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2eeFTGSaSd_GSaSd__Sb">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3eeeFTCS_6MatrixGSaSd__S0_">===(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3eeeFTCS_6MatrixS0__S0_">===(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3eeeFTCS_6MatrixSd_S0_">===(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3eeeFTGSaSd_CS_6Matrix_S0_">===(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3eeeFTSdCS_6Matrix_S0_">===(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi2qqFTCS_6MatrixT2erOS_9Extractor2ecS1___S0_">??(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi1xFTCS_6MatrixSi_S0_">^(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3absFCS_6MatrixS0_">abs(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3absFGSaSd_GSaSd_">abs(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3colGSaSd__S0_">append(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3colS0__S0_">append(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3colSd_S0_">append(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix4colsGSaGSaSd___S0_">append(_:cols:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix4colsS0__S0_">append(_:cols:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3rowGSaSd__S0_">append(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3rowS0__S0_">append(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix3rowSd_S0_">append(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix4rowsGSaGSaSd___S0_">append(_:rows:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6appendFTCS_6Matrix4rowsS0__S0_">append(_:rows:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3cosFCS_6MatrixS0_">cos(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3cosFGSaSd_GSaSd_">cos(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4diagFCS_6MatrixS0_">diag(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4diagFGSaSd_CS_6Matrix">diag(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4diagFTSiSiCS_6Matrix_S0_">diag(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4diagFTSiSiGSaSd__CS_6Matrix">diag(_:_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3dotFTGSaSd_GSaSd__Sd">dot(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3eigFCS_6MatrixT1VS0_1DS0__">eig(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3expFCS_6MatrixS0_">exp(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3expFGSaSd_GSaSd_">exp(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3eyeFTSiSi_CS_6Matrix">eye(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6insertFTCS_6Matrix3colGSaSd_2atSi_S0_">insert(_:col:at:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6insertFTCS_6Matrix4colsS0_2atSi_S0_">insert(_:cols:at:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6insertFTCS_6Matrix3rowGSaSd_2atSi_S0_">insert(_:row:at:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6insertFTCS_6Matrix4rowsS0_2atSi_S0_">insert(_:rows:at:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3invFCS_6MatrixS0_">inv(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTCS_6MatrixGSaSd__S0_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTCS_6MatrixS0__S0_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTCS_6MatrixSd_S0_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTGSaSd_CS_6Matrix_S0_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTGSaSd_GSaSd__GSaSd_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTGSaSd_Sd_GSaSd_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTSdCS_6Matrix_S0_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7ldivideFTSdGSaSd__GSaSd_">ldivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3logFCS_6MatrixS0_">log(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3logFGSaSd_GSaSd_">log(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5log10FCS_6MatrixS0_">log10(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5log10FGSaSd_GSaSd_">log10(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4log2FCS_6MatrixS0_">log2(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4log2FGSaSd_GSaSd_">log2(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3mapFTCS_6MatrixFSdSd_S0_">map(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3maxFGSaSd_Sd">max(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3maxFTCS_6MatrixOS_3Dim_GSaSd_">max(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4meanFGSaSd_Sd">mean(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4meanFTCS_6MatrixOS_3Dim_GSaSd_">mean(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3minFGSaSd_Sd">min(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3minFTCS_6MatrixOS_3Dim_GSaSd_">min(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTCS_6MatrixGSaSd__S0_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTCS_6MatrixS0__S0_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTCS_6MatrixSd_S0_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTGSaSd_CS_6Matrix_S0_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTGSaSd_GSaSd__GSaSd_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTGSaSd_Sd_GSaSd_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTSdCS_6Matrix_S0_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5minusFTSdGSaSd__GSaSd_">minus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6mpowerFTCS_6MatrixSi_S0_">mpower(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6mtimesFTCS_6MatrixS0__S0_">mtimes(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift9normalizeFGSaSd_GSaSd_">normalize(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift9normalizeFTCS_6MatrixOS_3Dim_S0_">normalize(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4onesFSiGSaSd_">ones(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4onesFTSiSi_CS_6Matrix">ones(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTCS_6MatrixGSaSd__S0_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTCS_6MatrixS0__S0_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTCS_6MatrixSd_S0_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTGSaSd_CS_6Matrix_S0_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTGSaSd_GSaSd__GSaSd_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTGSaSd_Sd_GSaSd_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTSdCS_6Matrix_S0_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4plusFTSdGSaSd__GSaSd_">plus(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5powerFTCS_6MatrixSd_S0_">power(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5powerFTGSaSd_Sd_GSaSd_">power(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3colGSaSd__S0_">prepend(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3colS0__S0_">prepend(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3colSd_S0_">prepend(_:col:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix4colsGSaGSaSd___S0_">prepend(_:cols:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix4colsS0__S0_">prepend(_:cols:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3rowGSaSd__S0_">prepend(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3rowS0__S0_">prepend(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix3rowSd_S0_">prepend(_:row:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix4rowsGSaGSaSd___S0_">prepend(_:rows:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7prependFTCS_6Matrix4rowsS0__S0_">prepend(_:rows:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4randFSiGSaSd_">rand(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4randFTSiSi_CS_6Matrix">rand(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5randnFSiGSaSd_">randn(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5randnFTSiSi_CS_6Matrix">randn(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTCS_6MatrixGSaSd__S0_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTCS_6MatrixS0__S0_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTCS_6MatrixSd_S0_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTGSaSd_CS_6Matrix_S0_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTGSaSd_GSaSd__GSaSd_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTGSaSd_Sd_GSaSd_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTSdCS_6Matrix_S0_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift7rdivideFTSdGSaSd__GSaSd_">rdivide(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3sinFCS_6MatrixS0_">sin(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3sinFGSaSd_GSaSd_">sin(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5sliceFTCS_6MatrixT2erOS_9Extractor2ecS1___S0_">slice(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4sqrtFCS_6MatrixS0_">sqrt(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift4sqrtFGSaSd_GSaSd_">sqrt(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6squareFCS_6MatrixS0_">square(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6squareFGSaSd_GSaSd_">square(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3stdFGSaSd_Sd">std(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3stdFTCS_6MatrixOS_3Dim_GSaSd_">std(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3sumFGSaSd_Sd">sum(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3sumFTCS_6MatrixOS_3Dim_GSaSd_">sum(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5sumsqFGSaSd_Sd">sumsq(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5sumsqFTCS_6MatrixOS_3Dim_GSaSd_">sumsq(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3svdFCS_6MatrixT1US0_1SS0_1VS0__">svd(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3tanFCS_6MatrixS0_">tan(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift3tanFGSaSd_GSaSd_">tan(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTCS_6MatrixGSaSd__S0_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTCS_6MatrixS0__S0_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTCS_6MatrixSd_S0_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTGSaSd_CS_6Matrix_S0_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTGSaSd_GSaSd__GSaSd_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTGSaSd_Sd_GSaSd_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTSdCS_6Matrix_S0_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5timesFTSdGSaSd__GSaSd_">times(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5traceFCS_6MatrixSd">trace(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift9transposeFCS_6MatrixS0_">transpose(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6uminusFCS_6MatrixS0_">uminus(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift6uminusFGSaSd_GSaSd_">uminus(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5zerosFSiGSaSd_">zeros(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwift5zerosFTSiSi_CS_6Matrix">zeros(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3oooFTCS_6MatrixGSaSd__S0_">|||(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3oooFTCS_6MatrixS0__S0_">|||(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3oooFTCS_6MatrixSd_S0_">|||(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3oooFTGSaSd_CS_6Matrix_S0_">|||(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftoi3oooFTSdCS_6Matrix_S0_">|||(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:F7LASwiftXoP3DvgFCS_6MatrixS0_">′(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Random.html">Random</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Typealiases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:7LASwift6Vector">Vector</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Structs</h1>
+            <p>The following structs are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:V7LASwift6Random"></a>
+                    <a name="//apple_ref/swift/Struct/Random" class="dashAnchor"></a>
+                    <a class="token" href="#/s:V7LASwift6Random">Random</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Random value generator helpers</p>
+
+                        <a href="Structs/Random.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Random</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/alexandertar/LASwift" target="_blank" rel="external">Alexander Taraymovich</a>. All rights reserved. (Last updated: 2017-03-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
