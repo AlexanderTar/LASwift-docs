@@ -1,210 +1,210 @@
 {
   "warnings": [
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 133,
       "symbol": "Dim.Row",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 133,
       "symbol": "Dim.Row",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 133,
       "symbol": "Dim.Row",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 134,
       "symbol": "Dim.Column",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 134,
       "symbol": "Dim.Column",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 134,
       "symbol": "Dim.Column",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 726,
       "symbol": "Extractor.All",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 726,
       "symbol": "Extractor.All",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 726,
       "symbol": "Extractor.All",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 727,
       "symbol": "Extractor.Range",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 727,
       "symbol": "Extractor.Range",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 727,
       "symbol": "Extractor.Range",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 728,
       "symbol": "Extractor.Pos",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 728,
       "symbol": "Extractor.Pos",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 728,
       "symbol": "Extractor.Pos",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 729,
       "symbol": "Extractor.PosCyc",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 729,
       "symbol": "Extractor.PosCyc",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 729,
       "symbol": "Extractor.PosCyc",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 730,
       "symbol": "Extractor.Take",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 730,
       "symbol": "Extractor.Take",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 730,
       "symbol": "Extractor.Take",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 731,
       "symbol": "Extractor.TakeLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 731,
       "symbol": "Extractor.TakeLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 731,
       "symbol": "Extractor.TakeLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 732,
       "symbol": "Extractor.Drop",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 732,
       "symbol": "Extractor.Drop",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 732,
       "symbol": "Extractor.Drop",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 733,
       "symbol": "Extractor.DropLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 733,
       "symbol": "Extractor.DropLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix/Matrix.swift",
+      "file": "/Users/travis/build/AlexanderTar/LASwift/Sources/Matrix.swift",
       "line": 733,
       "symbol": "Extractor.DropLast",
       "symbol_kind": "source.lang.swift.decl.enumelement",
