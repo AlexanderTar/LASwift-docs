@@ -45,6 +45,9 @@
               <li class="nav-group-task">
                 <a href="../Enums.html#/s:O7LASwift9Extractor">Extractor</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:O7LASwift8Triangle">Triangle</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -282,7 +285,7 @@
                 <a href="../Functions.html#/s:F7LASwift6appendFTCS_6Matrix4rowsS0__S0_">append(_:rows:)</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:F7LASwift4cholFCS_6MatrixS0_">chol(_:)</a>
+                <a href="../Functions.html#/s:F7LASwift4cholFTCS_6MatrixOS_8Triangle_S0_">chol(_:_:)</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Functions.html#/s:F7LASwift3cosFCS_6MatrixS0_">cos(_:)</a>
@@ -628,6 +631,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Functions.html#/s:F7LASwift9transposeFCS_6MatrixS0_">transpose(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F7LASwift3triFTCS_6MatrixOS_8Triangle_S0_">tri(_:_:)</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Functions.html#/s:F7LASwift6uminusFCS_6MatrixS0_">uminus(_:)</a>
@@ -984,6 +990,40 @@
                             </tr>
                           </tbody>
                         </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:iC7LASwift6Matrix9subscriptFT2erOS_9Extractor2ecS1__S0_"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:iC7LASwift6Matrix9subscriptFT2erOS_9Extractor2ecS1__S0_">subscript(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Construct new matrix from source using specified extractor.</p>
+
+<p>Alternatively, <code>m[e]</code> can be executed with <code>m ?? e</code> or <code>slice(m, e)</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="n">_</span> <span class="nv">e</span><span class="p">:</span> <span class="p">(</span><span class="nv">er</span><span class="p">:</span> <span class="kt"><a href="../Enums.html#/s:O7LASwift9Extractor">Extractor</a></span><span class="p">,</span> <span class="nv">ec</span><span class="p">:</span> <span class="kt"><a href="../Enums.html#/s:O7LASwift9Extractor">Extractor</a></span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kt">Matrix</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>extracted matrix</p>
+
                       </div>
                     </section>
                   </div>
